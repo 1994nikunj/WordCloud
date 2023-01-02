@@ -44,7 +44,7 @@ class Cloud:
         word_cloud = WordCloud(mask=_mask,
                                colormap='plasma_r',
                                repeat=True,
-                               background_color='Black')
+                               background_color='White')
 
         word_cloud.generate(self._processed_input)
 
